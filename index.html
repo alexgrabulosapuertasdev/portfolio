@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Àlex Grabulosa Puertas - Desarrollador</title>
+    <link rel="icon" href="./img/icons/favicon.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+
+    <nav class="nav">
+        <div>
+            <ul id="menu" class="menu">
+                <li class="menu__item"><a class="menu__link" href="#" data-section="nav" data-value="home">Inicio</a></li>
+                <li class="menu__item"><a class="menu__link" href="#about" data-section="nav" data-value="about">Sobre mí</a></li>
+                <li class="menu__item"><a class="menu__link" href="#skills" data-section="nav" data-value="skills">Habilidades</a></li>
+                <li class="menu__item"><a class="menu__link" href="#projects" data-section="nav" data-value="projects">Proyectos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#studies" data-section="nav" data-value="studies">Estudios</a></li>
+                <li class="menu__item"><a class="menu__link" href="#experience" data-section="nav" data-value="experience">Experiencia</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contact" data-section="nav" data-value="contact">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="options">
+            <a href="#" class="nav__title">Àlex Grabulosa Puertas</a>
+
+            <div class="colors">
+                <button class="colors__item colors__item--blue" data-color="var(--blue)"></button>
+                <button class="colors__item colors__item--green" data-color="var(--green)"></button>
+                <button class="colors__item colors__item--orange" data-color="var(--orange)"></button>
+                <button class="colors__item colors__item--purple" data-color="var(--purple)"></button>
+            </div>
+
+            <div class="languages">
+                <button class="languages__item" data-language="es">
+                    <img loading="lazy" src="./img/icons/languages/spain.svg" alt="Español">
+                </button>
+                <button class="languages__item" data-language="en">
+                    <img loading="lazy" src="./img/icons/languages/united-kingdom.svg" alt="Ingles">
+                </button>
+            </div>
+
+            <div class="themes">
+                <button class="themes__item" data-theme="dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+                        <path d="m275.4,500.7c-135,0-244.7-109.8-244.7-244.7 1.06581e-14-134.9 109.8-244.7 244.7-244.7 8.2,0 16.4,0.4 24.6,1.2 7.2,0.7 13.5,5.2 16.5,11.7s2.4,14.2-1.6,20.2c-23,33.8-35.2,73.3-35.2,114.2 0,105 78.7,192.2 183.2,202.6 7.2,0.7 13.5,5.2 16.5,11.7 3.1,6.5 2.4,14.2-1.6,20.2-45.8,67.4-121.4,107.6-202.4,107.6zm-12.5-448c-106.5,6.5-191.2,95.2-191.2,203.3 1.42109e-14,112.3 91.4,203.7 203.7,203.7 56.4,0 109.6-23.4 147.8-63.7-46.2-11.7-88.1-36.8-120.8-72.6-41.1-45.2-63.8-103.6-63.8-164.6 0.1-37.1 8.4-73.2 24.3-106.1z"/>
+                    </svg>
+                </button>
+
+                <button class="themes__item" data-theme="light">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                        <path d="M32.1318512,18.2793007c-7.7119007,0-13.9863014,6.2743988-13.9863014,13.9862976
+                            s6.2744007,13.9864006,13.9863014,13.9864006s13.9862976-6.274498,13.9862976-13.9864006
+                            S39.84375,18.2793007,32.1318512,18.2793007z M32.1318512,44.2793007c-6.6245003,0-12.0137005-5.3897018-12.0137005-12.0137024
+                            s5.3892002-12.0135975,12.0137005-12.0135975s12.0136986,5.3895988,12.0136986,12.0135975
+                            S38.7563515,44.2793007,32.1318512,44.2793007z"/>
+                        <path d="M32.0000496,13.1688995c0.5522003,0,1-0.4471998,1-1V1c0-0.5527-0.4477997-1-1-1c-0.5522995,0-1,0.4473-1,1v11.1688995
+                            C31.0000496,12.7216997,31.4477501,13.1688995,32.0000496,13.1688995z"/>
+                        <path d="M32.0000496,50.830101c-0.5522995,0-1,0.4472008-1,1V63c0,0.5527,0.4477005,1,1,1c0.5522003,0,1-0.4473,1-1V51.830101
+                            C33.0000496,51.2773018,32.5522499,50.830101,32.0000496,50.830101z"/>
+                        <path d="M62.263649,30.4452991H51.09375c-0.5522003,0-1,0.4473-1,1s0.4477997,1.0000019,1,1.0000019h11.169899
+                            c0.5522995,0,1-0.4473019,1-1.0000019S62.8159485,30.4452991,62.263649,30.4452991z"/>
+                        <path d="M13.90625,31.4452991c0-0.5527-0.447794-1-0.999999-1H1.7363508c-0.5523,0-1,0.4473-1,1s0.4477,1.0000019,1,1.0000019
+                            H12.906251C13.458456,32.4453011,13.90625,31.9979992,13.90625,31.4452991z"/>
+                        <path d="M45.1801491,19.8778992c0.2559013,0,0.5116997-0.097599,0.7070999-0.2929001l7.8988991-7.8984995
+                            c0.3906021-0.3905993,0.3906021-1.0233994,0-1.4139996c-0.3905983-0.3907003-1.0234985-0.3907003-1.4140968,0l-7.8989029,7.8984003
+                            c-0.3905983,0.3906002-0.3905983,1.0233994,0,1.4140987C44.668457,19.7803001,44.9243507,19.8778992,45.1801491,19.8778992z"/>
+                        <path d="M45.887249,45.2030983c-0.3906975-0.3905983-1.0234985-0.3905983-1.4141006,0
+                            c-0.3905983,0.3907013-0.3905983,1.0235023,0,1.4141006l7.8989029,7.8973999
+                            c0.1952972,0.1954002,0.4511986,0.2929993,0.7070999,0.2929993c0.2557983,0,0.5116997-0.097599,0.7069969-0.2929993
+                            c0.3906021-0.3905983,0.3906021-1.0233994,0-1.4139977L45.887249,45.2030983z"/>
+                        <path d="M18.112751,19.5849991c0.1954002,0.1953011,0.4511986,0.2929001,0.7070999,0.2929001
+                            c0.2558002,0,0.5116997-0.097599,0.7069988-0.2929001c0.3906059-0.3906994,0.3906059-1.0234985,0-1.4140987L11.6289501,10.2725
+                            c-0.3906994-0.3907003-1.0234947-0.3907003-1.4140997,0c-0.3906002,0.3906002-0.3906002,1.0234003,0,1.4139996
+                            L18.112751,19.5849991z"/>
+                        <path d="M19.5712509,45.2700996c-0.0177002-0.0208015-0.024601-0.0471992-0.0444012-0.0670013
+                            c-0.3906002-0.3905983-1.0233936-0.3905983-1.4140987,0l-3.9401007,3.9400024l-4.0341949,3.8446999
+                            c-0.3999052,0.3811989-0.415205,1.0139008-0.0339994,1.4137993c0.0192947,0.0203018,0.045495,0.0278015,0.066,0.0460014
+                            c0.0176945,0.0208969,0.0245943,0.0472984,0.0443945,0.0669975c0.1953001,0.1954002,0.4512005,0.2929993,0.7069998,0.2929993
+                            c0.2559004,0,0.5117006-0.097599,0.7070999-0.2929993l3.9401007-3.9398994l4.0341997-3.8446999
+                            c0.3999004-0.3811989,0.415205-1.0139008,0.0340004-1.4137993C19.6179504,45.2958984,19.5917511,45.2882996,19.5712509,45.2700996z
+                            "/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div id="menu__toggle" class="menu__toggle">
+                <div id="menu__toggle-icon" class="menu__toggle-icon"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <h1 id="header__title" class="header__title" data-section="header" data-value="rol">DESARROLLADOR</h1>
+    </header>
+
+    <hr class="separator">
+
+    <main id="about" class="about">
+        <img loading="lazy" src="./img/profile.png" alt="Perfil" class="about__img">
+        <div class="about__card">
+            <p class="about__description" data-section="about" data-value="description">
+                Como persona organizada y con una gran motivación, me considero capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí, al mismo tiempo me esfuerzo por trabajar en equipo y aprender de mis compañeros para mejorar como desarrollador y como persona.
+            </p>
+        </div>
+        <a id="about__curriculum" class="about__curriculum chip chip--on" href="./files/Curriculum(ES) -  Álex Grabulosa Puertas.pdf" target="_blank" data-section="about" data-value="resume">CURRÍCULUM</a>
+    </main>
+
+    <hr class="separator">
+
+    <section id="skills" class="container">
+        <h2 data-section="skills" data-value="title">HABILIDADES</h2>
+
+        <div class="skills__container">
+
+            <img loading="lazy" class="skills__item" title="HTML5" src="./img/skills/html5.svg" alt="HTML5">
+
+            <img loading="lazy" class="skills__item" title="CSS3" src="./img/skills/css3.svg" alt="CSS3">
+            
+            <img loading="lazy" class="skills__item" title="Sass" src="./img/skills/sass.svg" alt="Sass">
+
+            <img loading="lazy" class="skills__item" title="Bootstrap" src="./img/skills/bootstrap.svg" alt="Bootstrap">
+            
+            <img loading="lazy" class="skills__item" title="JavaScript" src="./img/skills/javascript.svg" alt="JavaScript">
+            
+            <img loading="lazy" class="skills__item" title="TypeScript" src="./img/skills/typescript.svg" alt="TypeScript">
+            
+            <img loading="lazy" class="skills__item" title="React" src="./img/skills/react.svg" alt="React">
+            
+            <img loading="lazy" class="skills__item" title="Angular" src="./img/skills/angular.svg" alt="Angular">
+            
+            <img loading="lazy" class="skills__item" title="NodeJS" src="./img/skills/nodejs.svg" alt="NodeJS">
+            
+            <img loading="lazy" class="skills__item" title="NestJS" src="./img/skills/nestjs.svg" alt="NestJS">
+            
+            <img loading="lazy" class="skills__item" title="PHP" src="./img/skills/php.svg" alt="PHP">
+            
+            <img loading="lazy" class="skills__item" title="Java" src="./img/skills/java.svg" alt="Java">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 255">
+                <title>Python</title>
+                <defs>
+                    <lineargradient x1="12.959%" y1="12.039%" x2="79.639%" y2="78.201%" id="a">
+                        <stop stop-color="#387EB8" offset="0%"/>
+                        <stop stop-color="#366994" offset="100%"/>
+                    </lineargradient>
+                    <lineargradient x1="19.128%" y1="20.579%" x2="90.742%" y2="88.429%" id="b">
+                        <stop stop-color="#FFE052" offset="0%"/>
+                        <stop stop-color="#FFC331" offset="100%"/>
+                    </lineargradient>
+                </defs>
+                <path d="M126.916.072c-64.832 0-60.784 28.115-60.784 28.115l.072 29.128h61.868v8.745H41.631S.145 61.355.145 126.77c0 65.417 36.21 63.097 36.21 63.097h21.61v-30.356s-1.165-36.21 35.632-36.21h61.362s34.475.557 34.475-33.319V33.97S194.67.072 126.916.072zM92.802 19.66a11.12 11.12 0 0 1 11.13 11.13 11.12 11.12 0 0 1-11.13 11.13 11.12 11.12 0 0 1-11.13-11.13 11.12 11.12 0 0 1 11.13-11.13z" fill="url(#a)"/>
+                <path d="M128.757 254.126c64.832 0 60.784-28.115 60.784-28.115l-.072-29.127H127.6v-8.745h86.441s41.486 4.705 41.486-60.712c0-65.416-36.21-63.096-36.21-63.096h-21.61v30.355s1.165 36.21-35.632 36.21h-61.362s-34.475-.557-34.475 33.32v56.013s-5.235 33.897 62.518 33.897zm34.114-19.586a11.12 11.12 0 0 1-11.13-11.13 11.12 11.12 0 0 1 11.13-11.131 11.12 11.12 0 0 1 11.13 11.13 11.12 11.12 0 0 1-11.13 11.13z" fill="url(#b)"/>
+            </svg>
+
+            <img loading="lazy" class="skills__item" title="MySQL" src="./img/skills/mysql.svg" alt="MySQL">
+
+            <img loading="lazy" class="skills__item" title="Git" src="./img/skills/git.svg" alt="Git">
+
+        </div>
+    </section>
+
+    <hr class="separator">
+    
+    <section id="projects" class="container">
+        <h2 data-section="projects" data-value="title">PROYECTOS</h2>
+
+        <div class="projects__container">
+
+            <article class="projects__item">
+                <img loading="lazy" class="projects__img" src="./img/projects/pokedex.png" alt="Project Image">
+                <div class="projects__info">
+                    <h3>POKEDEX</h3>
+                    <ul class="projects__technologies">
+                        <li class="projects__technology">#HTML</li>
+                        <li class="projects__technology">#CSS</li>
+                        <li class="projects__technology">#JavaScript</li>
+                        <li class="projects__technology">#React</li>
+                    </ul>
+                    <div class="projects__links">
+                        <a class="projects__link chip chip--off" href="https://alexgrabulosapuertasdev.github.io/pokedex/" target="_blank" data-section="projects" data-value="project">Sitio web</a>
+                        <a class="projects__link chip chip--on" href="https://github.com/alexgrabulosapuertasdev/pokedex" target="_blank" data-section="projects" data-value="code">Ver el código</a>
+                    </div>
+                </div>
+            </article>
+    
+            <article class="projects__item">
+                <img loading="lazy" class="projects__img" src="./img/projects/tic-tac-toe.png" alt="Project Image">
+                <div class="projects__info">
+                    <h3>TIC TAC TOE</h3>
+                    <ul class="projects__technologies">
+                        <li class="projects__technology">#HTML</li>
+                        <li class="projects__technology">#CSS</li>
+                        <li class="projects__technology">#JavaScript</li>
+                        <li class="projects__technology">#React</li>
+                    </ul>
+                    <div class="projects__links">
+                        <a class="projects__link chip chip--off" href="https://alexgrabulosapuertasdev.github.io/tic-tac-toe/" target="_blank" data-section="projects" data-value="project">Sitio web</a>
+                        <a class="projects__link chip chip--on" href="https://github.com/alexgrabulosapuertasdev/tic-tac-toe" target="_blank" data-section="projects" data-value="code">Ver el código</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projects__item">
+                <img loading="lazy" class="projects__img" src="./img/projects/snake.png" alt="Project Image">
+                <div class="projects__info">
+                    <h3>SNAKE</h3>
+                    <ul class="projects__technologies">
+                        <li class="projects__technology">#HTML</li>
+                        <li class="projects__technology">#CSS</li>
+                        <li class="projects__technology">#JavaScript</li>
+                    </ul>
+                    <div class="projects__links">
+                        <a class="projects__link chip chip--off" href="https://alexgrabulosapuertasdev.github.io/snake/" target="_blank" data-section="projects" data-value="project">Sitio web</a>
+                        <a class="projects__link chip chip--on" href="https://github.com/alexgrabulosapuertasdev/snake" target="_blank" data-section="projects" data-value="code">Ver el código</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projects__item">
+                <img loading="lazy" class="projects__img" src="./img/projects/sudoku-resolver.png" alt="Project Image">
+                <div class="projects__info">
+                    <h3 data-section="projects" data-value="sudoku-resolver-name">SOLUCIONADOR DE SUDOKUS</h3>
+                    <ul class="projects__technologies">
+                        <li class="projects__technology">#Java</li>
+                    </ul>
+                    <div class="projects__links">
+                        <a class="projects__link chip chip--on" href="https://github.com/alexgrabulosapuertasdev/sudoku-solver" target="_blank" data-section="projects" data-value="code">Ver el código</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <hr class="separator">
+    
+    <section id="studies" class="container">
+        <h2 data-section="studies" data-value="title">ESTUDIOS</h2>
+
+        <article class="studies__item">
+            <h3 class="studies__title" data-section="studies" data-value="computer-science-title">Ingeniería Informática <small>2022 - Actualmente</small></h3>
+            <p>UNIR, La Universidad en Internet - Avenida de la Paz, Logroño</p>
+            <hr>
+        </article>
+
+        <article class="studies__item">
+            <h3 class="studies__title" data-section="studies" data-value="daw-title">CFGS Desarrollo de Aplicaciones Web (DUAL)<small>2020 - 2022</small></h3>
+            <p>Sa Palomera - Blanes, Gerona</p>
+            <hr>
+        </article>
+
+        <article class="studies__item">
+            <h3 class="studies__title" data-section="studies" data-value="baccalaureate-title">Bachillerato Tecnológico <small>2018 - 2020</small></h3>
+            <p>Ramon Coll i Rodés - Lloret de Mar, Gerona</p>
+            <hr>
+        </article>
+
+        <article class="studies__item">
+            <h3 class="studies__title" data-section="studies" data-value="eso-title">Educación Secundaria Obligatoria (ESO) <small>2014 - 2018</small></h3>
+            <p>Ramon Coll i Rodés - Lloret de Mar, Gerona</p>
+            <hr>
+        </article>
+    </section>
+    
+    <hr class="separator">
+    
+    <section id="experience" class="container">
+        <h2 data-section="experience" data-value="title">EXPERIENCIA</h2>
+
+        <article class="experience__item">
+            <a href="https://www.re7systems.com" target="_blank">
+                <img loading="lazy" src="./img/experience/re7systems.png" alt="Logo Re7systems">
+            </a>
+            <div class="experience__info">
+                <h3>
+                    <a class="experience__title" href="https://www.re7systems.com" target="_blank">Re7Systems</a>
+                </h3>
+                <p data-section="experience" data-value="re7systems-date">07/2021 - Actualidad</p>
+                <p data-section="experience" data-value="re7systems-rol">Desarrollador Full-Stack</p>
+            </div>
+        </article>
+
+    </section>
+    
+    <hr class="separator">
+    
+    <section id="contact" class="container">
+        <h2 data-section="contact" data-value="title">CONTACTO</h2>
+
+        <form action="https://formsubmit.co/alexgrabulosapuertas9@gmail.com" method="POST">
+            <div class="contact__item">
+                <label for="name" data-section="contact" data-value="label-name">Nombre</label>
+                <input class="contact__input" name="name" id="name" type="text" placeholder="Nombre" required data-section="contact" data-value="input-name">
+            </div>
+            <div class="contact__item">
+                <label for="email" data-section="contact" data-value="label-email">Correo electronico</label>
+                <input class="contact__input" name="email" id="email" type="email" placeholder="Correo electronico" required data-section="contact" data-value="input-email">
+            </div>
+            <div class="contact__item">
+                <label for="message" data-section="contact" data-value="label-message">Mensaje</label>
+                <textarea class="contact__input" name="message" id="message" cols="30" rows="10" placeholder="Escribe tu mensaje" required data-section="contact" data-value="input-message"></textarea>
+            </div>
+            <input class="contact__input contact__submit" type="submit" value="ENVIAR" data-section="contact" data-value="input-submit" >
+        </form>
+    </section>
+
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/àlex-grabulosa-puertas-487548234/" target="_blank" title="LinkedIn">
+            <svg class="bi bi-linkedin footer__icon" viewbox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+        </a>
+        
+
+        <a href="https://github.com/alexgrabulosapuertas" target="_blank" title="GitHub">
+            <svg class="bi bi-github footer__icon" viewbox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+        </a>
+        
+        <a href="https://www.instagram.com/alex_grabukeo/?hl=es" target="_blank" title="Instagram">
+            <svg class="bi bi-instagram footer__icon" viewbox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg>
+        </a>
+    </footer>
+
+</body>
+</html>

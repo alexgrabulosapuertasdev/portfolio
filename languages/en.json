@@ -1,0 +1,49 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "studies": "Studies",
+        "experience": "Experience",
+        "contact": "Contact"
+    },
+    "header": {
+        "rol": "DEVELOPER"
+    },
+    "about": {
+        "description": "As an organized and highly motivated person, I consider myself capable of adapting to any circumstance and always giving my best, at the same time I strive to work as a team and learn from my colleagues to improve as a developer and as a person.",
+        "resume": "RESUME"
+    },
+    "skills": {
+        "title": "SKILLS"
+    },
+    "projects": {
+        "title": "PROJECTS",
+        "project": "Web site",
+        "code": "See the code",
+        "sudoku-resolver-name": "SUDOKU SOLVER"
+    },
+    "studies": {
+        "title": "STUDIES",
+        "computer-science-title": "Computer Science <small>2022 - Currently</small>",
+        "daw-title": "CFGS Web Application Development (DUAL) <small>2020 - 2022</small>",
+        "baccalaureate-title": "Technological Baccalaureate <small>2018 - 2020</small>",
+        "eso-title": "Compulsory Secondary Education <small>2014 - 2018</small>"
+    },
+    "experience": {
+        "title": "EXPERIENCE",
+        "re7systems-date": "07/2021 - Currently",
+        "re7systems-rol": "Full Stack Developer"
+    },
+    "contact": {
+        "title": "CONTACT",
+        "label-name": "Name",
+        "input-name": "Name",
+        "label-email": "Email",
+        "input-email": "Email",
+        "label-message": "Message",
+        "input-message": "Write your message",
+        "input-submit": "SEND"
+    }
+}

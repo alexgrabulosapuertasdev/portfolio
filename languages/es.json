@@ -1,0 +1,49 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "studies": "Estudios",
+        "experience": "Experiencia",
+        "contact": "Contacto"
+    },
+    "header": {
+        "rol": "DESARROLLADOR"
+    },
+    "about": {
+        "description": "Como persona organizada y con una gran motivación, me considero capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí, al mismo tiempo me esfuerzo por trabajar en equipo y aprender de mis compañeros para mejorar como desarrollador y como persona.",
+        "resume": "CURRÍCULUM"
+    },
+    "skills": {
+        "title": "HABILIDADES"
+    },
+    "projects": {
+        "title": "PROYECTOS",
+        "project": "Sitio web",
+        "code": "Ver el código",
+        "sudoku-resolver-name": "SOLUCIONADOR DE SUDOKUS"
+    },
+    "studies": {
+        "title": "ESTUDIOS",
+        "computer-science-title": "Ingeniería Informática <small>2022 - Actualmente</small>",
+        "daw-title": "CFGS Desarrollo de Aplicaciones Web (DUAL) <small>2020 - 2022</small>",
+        "baccalaureate-title": "Bachillerato Tecnológico <small>2018 - 2020</small>",
+        "eso-title": "Educación Secundaria Obligatoria (ESO) <small>2014 - 2018</small>"
+    },
+    "experience": {
+        "title": "EXPERIENCIA",
+        "re7systems-date": "07/2021 - Actualidad",
+        "re7systems-rol": "Desarrollador Full Stack"
+    },
+    "contact": {
+        "title": "CONTACTO",
+        "label-name": "Nombre",
+        "input-name": "Nombre",
+        "label-email": "Correo electrónico",
+        "input-email": "Correo electrónico",
+        "label-message": "Mensaje",
+        "input-message": "Escribe tu mensaje",
+        "input-submit": "ENVIAR"
+    }
+}
