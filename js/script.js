@@ -21,29 +21,37 @@ const textsToChange = document.querySelectorAll('[data-section]');
 const headerTitle = document.getElementById('header__title');
 const aboutCurriculum = document.getElementById('about__curriculum');
 const CURRICULUM_LINKS = {
-    'ES': './files/Curriculum(ES) -  Álex Grabulosa Puertas.pdf',
-    'EN': './files/Curriculum(EN) -  Alex Grabulosa Puertas.pdf',
+    ES: './files/Curriculum(ES) -  Álex Grabulosa Puertas.pdf',
+    EN: './files/Curriculum(EN) -  Alex Grabulosa Puertas.pdf',
 };
+const texts = {
+    ES: {},
+    EN: {},
+};
+async function fetchTexts() {
+    texts.ES = await fetch('./languages/es.json').then(res => res.json());
+    texts.EN = await fetch('./languages/en.json').then(res => res.json());
+}
+fetchTexts();
 languagesItem.forEach(languageItem => {
     const { language } = languageItem.dataset;
 
     languageItem.addEventListener('click', async () => {
-        const res = await fetch(`./languages/${language}.json`).then(res => res.json());
-        
         for (const textToChange of textsToChange) {
             const { section, value } = textToChange.dataset;
+            const text = texts[language.toUpperCase()][section][value];
 
             if (textToChange.hasAttribute('placeholder')) {
-                textToChange.setAttribute('placeholder', res[section][value]);
+                textToChange.setAttribute('placeholder', text);
                 continue;
             }
 
             if (textToChange.hasAttribute('value')) {
-                textToChange.setAttribute('value', res[section][value]);
+                textToChange.setAttribute('value', text);
                 continue;
             }
 
-            textToChange.innerHTML = res[section][value];
+            textToChange.innerHTML = text;
         }
 
         const headerTitleLength = headerTitle.innerText.length;
