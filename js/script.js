@@ -55,7 +55,7 @@ languagesItem.forEach(languageItem => {
         }
 
         const headerTitleLength = headerTitle.innerText.length;
-        rootStyles.setProperty('--header-title-length', headerTitleLength + 1);
+        rootStyles.setProperty('--header-title-length', headerTitleLength);
 
         aboutCurriculum.setAttribute('href', CURRICULUM_LINKS[language.toUpperCase()]);
     });

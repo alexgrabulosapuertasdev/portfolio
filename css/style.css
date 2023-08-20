@@ -15,7 +15,7 @@
     --orange: #EB5E0D;
     --purple: #B272FA;
 
-    --header-title-length: 14;
+    --header-title-length: 23;
 }
 
 * {
@@ -278,6 +278,7 @@ a.chip--on {
     background: #212121AA;
     border-right: 4px solid;
     font-size: 2.5rem;
+    white-space: nowrap;
     width: var(--header-title-length);
 
     animation: typing calc((var(--header-title-length) / 5) * 1s) steps(var(--header-title-length)) infinite, blink .25s infinite step-end alternate;
@@ -286,7 +287,7 @@ a.chip--on {
 
 @keyframes typing {
     0% { width: 0 }
-    50% { width: calc(var(--header-title-length) * 1ch) }
+    50% { width: calc(var(--header-title-length) * 1ch + 4px) }
 }
 
 @keyframes blink {
